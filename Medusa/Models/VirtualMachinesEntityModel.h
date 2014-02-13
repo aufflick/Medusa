@@ -118,6 +118,7 @@ enum GestaltMacModels {
 @property (nonatomic, retain) NSNumber * jitCacheSize;
 @property (nonatomic, retain) NSNumber * jitEnabled;
 @property (nonatomic, retain) NSNumber * lazyCacheEnabled;
+@property (nonatomic, copy) NSString * keycodefile;
 
 @property (nonatomic, retain) NSNumber * network;
 @property (nonatomic, retain) NSNumber * networkUDP;

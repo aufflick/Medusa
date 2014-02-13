@@ -148,6 +148,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		64F782D718ACCCB400943B23 /* Medusa 1.1.0.9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Medusa 1.1.0.9.xcdatamodel"; sourceTree = "<group>"; };
 		810BA89217E4E48700CF894B /* VirtualMachineIconValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VirtualMachineIconValueTransformer.h; path = TransformerControllers/VirtualMachineIconValueTransformer.h; sourceTree = "<group>"; };
 		810BA89317E4E48700CF894B /* VirtualMachineIconValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VirtualMachineIconValueTransformer.m; path = TransformerControllers/VirtualMachineIconValueTransformer.m; sourceTree = "<group>"; };
 		81134C4315540B2900785866 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferencesController.m; path = Models/PreferencesController.m; sourceTree = "<group>"; };
@@ -1206,6 +1207,7 @@
 		817334F1182D519900EDBF05 /* Medusa.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				64F782D718ACCCB400943B23 /* Medusa 1.1.0.9.xcdatamodel */,
 				817334F2182D519900EDBF05 /* Medusa 1.1.0.8.xcdatamodel */,
 			);
 			currentVersion = 817334F2182D519900EDBF05 /* Medusa 1.1.0.8.xcdatamodel */;

@@ -178,6 +178,12 @@ static const int ddLogLevel = LOG_LEVEL_WARN;
         [allData addObject:macLazyCache];
         [macLazyCache release];
         
+        if ([virtualMachine.keycodefile length] > 0)
+        {
+            [allData addObject:@{@"keycodes": @"true"}];
+            [allData addObject:@{@"keycodefile": virtualMachine.keycodefile}];
+        }
+        
         //    fpuEnabled
         //    fpu
         NSDictionary * macFpu = [[NSDictionary alloc]

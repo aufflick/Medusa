@@ -54,6 +54,7 @@
 @dynamic jitCacheSize;
 @dynamic jitEnabled;
 @dynamic lazyCacheEnabled;
+@dynamic keycodefile;
 
 @dynamic network;
 @dynamic networkUDP;
